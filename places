@@ -1,0 +1,12 @@
+;;; -*- coding: utf-8 -*-
+(("/Users/guoxc/.emacs.d/elpa/clojure-mode-2.1.0/clojure-mode-autoloads.el" . 1101)
+ ("/Users/guoxc/.emacs.d/elpa/dash-1.5.0/dash-autoloads.el" . 169)
+ ("/Users/guoxc/.emacs.d/elpa/elisp-slime-nav-0.6/elisp-slime-nav-autoloads.el" . 1325)
+ ("/Users/guoxc/.emacs.d/elpa/nrepl-0.1.7/nrepl-autoloads.el" . 1448)
+ ("/Users/guoxc/.emacs.d/elpa/smartparens-1.4.4/smartparens-autoloads.el" . 3684)
+ ("/Users/guoxc/.emacs.d/elpa/starter-kit-eshell-2.0.3/starter-kit-eshell-autoloads.el" . 1822)
+ ("/Users/guoxc/.emacs.d/elpa/starter-kit-js-2.0.1/starter-kit-js-autoloads.el" . 778)
+ ("/Users/guoxc/.emacs.d/elpa/starter-kit-lisp-2.0.3/starter-kit-lisp-autoloads.el" . 1922)
+ ("/Users/guoxc/.emacs.d/elpa/zenburn-theme-2.0/zenburn-theme-autoloads.el" . 472)
+ ("/Users/guoxc/.emacs.d/init.el" . 166)
+ ("/Users/guoxc/.zshrc" . 1717))
