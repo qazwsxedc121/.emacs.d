@@ -3,3 +3,6 @@
 /backups
 .DS_Store
 places
+*.elc
+*.el#
+
