@@ -32,6 +32,9 @@
  (zeitgeist .
 	    [(20120212 140)
 	     nil "No description available. [bzr]" single])
+ (yaxception .
+	     [(20130501 727)
+	      nil "provide framework about exception like Java for elisp [github]" single])
  (yasnippet .
 	    [(20130505 2115)
 	     nil "Yet another snippet extension for Emacs. [github]" tar])
@@ -537,6 +540,9 @@
  (sublimity .
 	    [(20130623 1220)
 	     nil "smooth-scrolling and minimap, like sublime editor [github]" tar])
+ (sublime-themes .
+		 [(20130722 1225)
+		  nil "A collection of themes based on Sublime Text [github]" tar])
  (subatomic256-theme .
 		     [(20130621 1210)
 		      nil "Fork of subatomic-theme for terminals. [github]" single])
@@ -551,6 +557,9 @@
  (stupid-indent-mode .
 		     [(20130608 1022)
 		      nil "Plain stupid indentation minor mode [github]" single])
+ (stumpwm-mode .
+	       [(20111113 1231)
+		nil "special lisp mode for evaluating code into running stumpwm [git]" single])
  (stripe-buffer .
 		[(20130528 48)
 		 ((cl-lib
@@ -660,7 +669,7 @@
 		  (24 1)))
 		"a dark colorful theme for Emacs24. [github]" single])
  (solarized-theme .
-		  [(20130719 1519)
+		  [(20130722 1616)
 		   nil "The Solarized color theme, ported to Emacs. [github]" tar])
  (snippet .
 	  [(20130210 1815)
@@ -958,8 +967,11 @@
  (rnc-mode .
 	   [(20121227 1802)
 	    nil "A major mode for editing RELAX NG Compact syntax. [github]" single])
+ (rings .
+	[(20130721 2305)
+	 nil "Buffer rings. Like tabs, but better. [github]" single])
  (rinari .
-	 [(20130616 957)
+	 [(20130721 1241)
 	  ((ruby-mode
 	    (1 0))
 	   (inf-ruby
@@ -1030,7 +1042,7 @@
       [(20120928 2154)
        nil "Recursive Descent Parser library [github]" single])
  (rbenv .
-	[(20130719 2118)
+	[(20130721 356)
 	 nil "Emacs integration for rbenv [github]" single])
  (rase .
        [(20120928 2345)
@@ -1313,7 +1325,7 @@
 	       [(20120403 2010)
 		nil "Specify package.el packages to use in a package spec [github]" single])
  (package-build .
-		[(20130710 8)
+		[(20130722 1011)
 		 ((cl-lib
 		   (0 2)))
 		 "Tools for assembling a package archive [github]" tar])
@@ -1478,7 +1490,7 @@
 			 (24 2)))
 		       "Display org properties in the agenda buffer. [github]" single])
  (org .
-      [(20130720 1353)
+      [(20130722 1606)
        nil "Outline-based notes management and organizer [git]" tar])
  (openwith .
 	   [(20120531 1636)
@@ -1526,6 +1538,9 @@
  (o-blog .
 	 [(20130428 1049)
 	  nil "Org-blog exporter [github]" tar])
+ (nyan-prompt .
+	      [(20130721 611)
+	       nil "Nyan Cat on the eshell prompt. [github]" tar])
  (nyan-mode .
 	    [(20120710 1922)
 	     nil "Nyan Cat shows position in current buffer in mode-line. [github]" tar])
@@ -1793,6 +1808,9 @@
 		    ((yasnippet
 		      (0 8 0)))
 		    "Yasnippets for Mallard [github]" tar])
+ (mallard-mode .
+	       [(20130722 620)
+		nil "Major mode for editing Mallard files [github]" tar])
  (main-line .
 	    [(20130405 1304)
 	     nil "modeline replacement forked from an early version of powerline.el [github]" single])
@@ -1815,11 +1833,14 @@
 		   (magit
 		    (1 1 0)))
 		  "GitHub pull requests extension for Magit [github]" single])
+ (magit-filenotify .
+		   [(20130720 1543)
+		    nil "No description available. [github]" single])
  (magit-commit-training-wheels .
 			       [(20130518 0)
 				nil "Advice for magit-log-edit-commit [github]" single])
  (magit .
-	[(20130720 1918)
+	[(20130722 239)
 	 nil "control Git from Emacs [github]" tar])
  (mag-menu .
 	   [(20130224 56)
@@ -1942,7 +1963,7 @@
 	   [(20130214 105)
 	    nil "Check the erroneous assignments in let forms [github]" single])
  (less-css-mode .
-		[(20130610 1645)
+		[(20130722 928)
 		 nil "Major mode for editing LESS CSS files (lesscss.org) [github]" single])
  (lemon-mode .
 	     [(20130216 2204)
@@ -2527,7 +2548,7 @@
 	   (1 2)))
 	 "Emacs client for hastebin (http://hastebin.com/about.md) [github]" single])
  (haskell-mode .
-	       [(20130720 1906)
+	       [(20130722 1217)
 		nil "A Haskell editing mode [github]" tar])
  (hardhat .
 	  [(20130522 1243)
@@ -2846,8 +2867,10 @@
 	    [(20130608 1859)
 	     nil "Non-interactive frame and window functions. [wiki]" single])
  (frame-cmds .
-	     [(20130719 1519)
-	      nil "Frame and window commands (interactive functions). [wiki]" single])
+	     [(20130722 1)
+	      ((frame-fns
+		(21 1)))
+	      "Frame and window commands (interactive functions). [wiki]" single])
  (foreign-regexp .
 		 [(20130618 1921)
 		  nil "search and replace by foreign regexp. [github]" tar])
@@ -3110,7 +3133,7 @@
 	       [(20121109 238)
 		nil "increment/decrement numbers like in vim [github]" single])
  (evil-nerd-commenter .
-		      [(20130705 1801)
+		      [(20130721 1450)
 		       nil "Comment/uncomment lines efficiently. Like Nerd Commenter in Vim [github]" tar])
  (evil-leader .
 	      [(20130710 1742)
@@ -3180,7 +3203,7 @@
 	    (1 0)))
 	  "A collection of emacs utilities [github]" tar])
  (ert-runner .
-	     [(20130718 749)
+	     [(20130722 1047)
 	      ((s
 		(1 6 1))
 	       (dash
@@ -3360,7 +3383,7 @@
 	 [(20130330 2100)
 	  nil "Redmine API access via elisp. [github]" single])
  (elixir-mode .
-	      [(20130720 1123)
+	      [(20130721 2352)
 	       nil "Major mode for editing Elixir files [github]" tar])
  (elixir-mix .
 	     [(20130720 1119)
@@ -3603,7 +3626,7 @@
 		[(20130328 1119)
 		 nil "make file details hide-able in dired [wiki]" single])
  (dired+ .
-	 [(20130720 2145)
+	 [(20130722 105)
 	  nil "Extensions to Dired. [wiki]" single])
  (dircmp .
 	 [(20130316 1327)
@@ -3665,7 +3688,7 @@
 	  [(20120115 1513)
 	   nil "a pcl-cvs like interface for managing darcs patches [darcs]" tar])
  (d-mode .
-	 [(20130707 1740)
+	 [(20130722 1048)
 	  nil "D Programming Language mode for (X)Emacs [github]" single])
  (cyberpunk-theme .
 		  [(20130515 1255)
@@ -3956,7 +3979,7 @@
 	   [(20081011 2126)
 	    nil "Quote text with a semi-box. [github]" single])
  (bookmark+ .
-	    [(20130712 727)
+	    [(20130722 44)
 	     nil "Bookmark+: extensions to standard library `bookmark.el'. [wiki]" tar])
  (bm .
      [(20121212 2224)
@@ -4164,7 +4187,7 @@
 		       [(20120829 1352)
 			nil "Show quote from http://theangrypolicecaptain.com in the minibuffer [github]" single])
  (android-mode .
-	       [(20130703 957)
+	       [(20130721 921)
 		nil "Minor mode for Android application development [github]" single])
  (anaphora .
 	   [(20121205 1452)
