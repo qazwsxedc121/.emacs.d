@@ -11,7 +11,8 @@
 (add-hook 'after-init-hook '(lambda () (sr-speedbar-toggle)))
 
 ;;load theme
-(load-theme 'zenburn t)
+(require 'color-theme)
+(color-theme-monokai)
 
 ;;tabbar default open
 (add-hook 'after-init-hook '(lambda () (tabbar-ruler-up)))
