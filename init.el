@@ -22,6 +22,9 @@
 (set-frame-width (selected-frame) 140)
 (set-frame-height (selected-frame) 50)
 
+;;markdown config
+(add-to-list 'auto-mode-alist '("\\.md\\" . gfm-mode))
+
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
