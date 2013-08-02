@@ -23,7 +23,7 @@
 (set-frame-height (selected-frame) 50)
 
 ;;markdown config
-(add-to-list 'auto-mode-alist '("\\.md\\" . gfm-mode))
+(add-to-list 'auto-mode-alist '("\\.md$" . gfm-mode))
 
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
