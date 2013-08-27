@@ -22,6 +22,10 @@
 (set-frame-width (selected-frame) 140)
 (set-frame-height (selected-frame) 50)
 
+;;yasnippet config
+(require 'yasnippet)
+(yas-global-mode 1)
+
 ;;markdown config
 (add-to-list 'auto-mode-alist '("\\.md$" . gfm-mode))
 
