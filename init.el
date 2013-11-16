@@ -5,10 +5,12 @@
                          ("melpa" . "http://melpa.milkbox.net/packages/")))
 (package-initialize)
 
+;;set tab-width
+(setq coffee-tab-width 4)
+
 ;;speedbar default open
 (require 'sr-speedbar)
 (add-hook 'speedbar-mode-hook '(lambda () (linum-mode -1)))
-(add-hook 'after-init-hook '(lambda () (sr-speedbar-toggle)))
 
 ;;load theme
 (require 'color-theme)
