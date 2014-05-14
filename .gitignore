@@ -6,4 +6,5 @@ places
 /url/cookies
 *.elc
 *.el#
+elpa
 

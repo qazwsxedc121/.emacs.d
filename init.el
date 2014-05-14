@@ -8,6 +8,10 @@
 ;;set tab-width
 (setq coffee-tab-width 4)
 
+;;set c default style
+(setq c-default-style "k&r"
+      c-basic-offset 4)
+
 ;;speedbar default open
 (require 'sr-speedbar)
 (add-hook 'speedbar-mode-hook '(lambda () (linum-mode -1)))
@@ -30,6 +34,9 @@
 
 ;;markdown config
 (add-to-list 'auto-mode-alist '("\\.md$" . gfm-mode))
+
+;;js2-mode
+(add-to-list 'auto-mode-alist '("\\.js\\'" . js2-mode))
 
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
